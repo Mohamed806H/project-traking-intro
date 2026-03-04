@@ -1,15 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@400;700&display=swap");
 @import "tailwindcss";
-
-/* Tailwind v4 theme directive - linter may not recognize yet */
 @theme {
-  --color-raed: hsl(0, 100%, 68%);
-  --color-darkBlue: hsl(230, 29%, 20%);
-  --color-grayishBlue: hsl(230, 11%, 40%);
-  --color-lightGrayishBlue: hsl(231, 7%, 65%);
+  /* Colors - Tailwind creates .text-raed, .bg-darkBlue, etc. */
+  --color-red: hsl(0, 100%, 68%);
+  --color-Darkblue: hsl(230, 29%, 20%);
+  --color-Grayishblue: hsl(230, 11%, 40%);
+  --color-LightGrayishblue: hsl(231, 7%, 65%);
+
+  /* Fonts - Tailwind creates .font-barlow, .font-condensed */
   --font-barlow: "Barlow", sans-serif;
-  --font-barlowCondensed: "Barlow Condensed", sans-serif;
+  --font-condensed: "Barlow Condensed", sans-serif;
+
+  /* Custom Breakpoint - Tailwind creates .xs:flex, .xs:hidden, etc. */
+  --breakpoint-xs: 500px;
 }
 body {
   background-image: url(./images/Rectangle3.jpg);
@@ -24,3 +27,23 @@ body {
     background-image: url(./images/Rectangle32.jpg);
   }
 }
+/* @media (max-width: 500px) {
+  .nav-links {
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 24rem;
+    left: 8rem;
+    width: 83%;
+
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 6rem 10rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--font-condensed);
+  }
+} */
