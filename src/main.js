@@ -4,7 +4,7 @@ document.querySelector("#app").innerHTML = `
     <header class="flex justify-between md:block">
       <nav id="nav" class="   md:flex  md:justify-between items-center sm:mt-16   sm:mx-20 lg:mx-41 mt-[38px] ml-8">
         <div class="logo">
-          <img src="./src/images/logo.svg" alt="Monograph Logo" />
+          <img src="./images/logo.svg" alt="Monograph Logo" />
         </div>
         <ul class="nav-links hidden sm:flex flex-col sm:flex-row text-center align-items-center justify-center gap-y-6 sm:gap-3 bg-white sm:bg-inherit absolute sm:relative top-24.5  sm:top-[-29px] md:top-0  left-8 sm:left-[150px] md:left-0  w-[90%] sm:w-auto  px-10 sm:p-0 py-6 sm:font-bold font-semibold text-[18px]">
           <li class="mr-0 sm:mr-6 md:mr-11"><a href="#product" class='text-Grayishblue font-condensed font-bold hover:text-LightGrayishblue'>PRODUCT</a></li>
@@ -14,7 +14,7 @@ document.querySelector("#app").innerHTML = `
           <li><a href="#login" class='text-LightGrayishblue font-condensed font-bold ml-0 sm:ml-6 md:ml-11 hover:text-Grayishblue'>LOGIN</a></li>
         </ul>
       </nav>
-      <button id="menu-toggle"  class=" sm:hidden absolute top-10 right-8"><img src="./src/images/icon-hamburger.svg" alt="Menu" class="w-6" /></button>
+      <button id="menu-toggle"  class=" sm:hidden absolute top-10 right-8"><img src="./images/icon-hamburger.svg" alt="Menu" class="w-6" /></button>
     </header>
 
     <main>
@@ -33,7 +33,7 @@ document.querySelector("#app").innerHTML = `
         
       </div>
       <div class="image-content overflow-x-hidden w-[483px] h-[244px] lg:w-[75%] lg:h-[464px] shrink-0 ml-3 lg:ml-24 xs:w-full xs:h-auto">
-  <img src="/src/images/illustrationdevices.svg" class="max-w-none w-full h-full!" alt="Desktop Preview">
+  <img src="./images/illustrationdevices.svg" class="max-w-none w-full h-full!" alt="Desktop Preview">
 </div>
     </section>
 
